@@ -53,7 +53,7 @@ export const CardWrapper = styled.div`
         border-radius: 50%;
         border: 1px solid ${lightGrey};
         background-color: ${iconsGrey};
-        margin-right: 4px;
+        margin-right: 8px;
         transition: all ease-in-out 0.2s;
         img {
           height: 18px;
