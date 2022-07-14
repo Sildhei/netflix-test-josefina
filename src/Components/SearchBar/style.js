@@ -35,7 +35,7 @@ export const MainWrapper = styled.div`
       border: 1px solid ${lightGrey};
       padding: 0 30px;
       color: ${lightGrey};
-      font-size: 14px;
+      font-size: 16px;
     }
     input[data-autocompleted] {
       background-color: transparent !important;
