@@ -10,7 +10,7 @@ const Card = ({ movie }) => {
       <div className="image-wrapper">
       </div>
       <div className="text-wrapper">
-        <div className="igtcons-wrapper">
+        <div className="icons-wrapper">
           <div className="left-wrapper">
             <div className="icon-wrapper">
               <img src={Play} alt="play" />
