@@ -35,7 +35,7 @@ export const MainWrapper = styled.div`
       border: 1px solid ${lightGrey};
       padding: 0 30px;
       color: ${lightGrey};
-      font-size: 16px;
+      font-size: 14px;
     }
     input[data-autocompleted] {
       background-color: transparent !important;
@@ -46,6 +46,12 @@ export const MainWrapper = styled.div`
     }
     input:focus-visible {
       outline: 0;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    form input {
+      font-size: 16px;
     }
   }
 `;
