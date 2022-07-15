@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     if (query !== "") {
       const abortCont = new AbortController();
-      fetch(`https://imdb-api.com/en/API/Search/k_3yqtn91l/${query}`, {
+      fetch(`https://imdb-api.com/en/API/Search/k_9fvd72tf/${query}`, {
         signal: abortCont.signal,
       })
         .then((res) => {
