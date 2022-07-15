@@ -117,5 +117,16 @@ export const CardWrapper = styled.div`
     &:hover {
       transform: scale(1.1);
     }
+    .text-wrapper {
+      .icons-wrapper {
+        .icon-wrapper {
+          height: 20px;
+          width: 20px;
+          img {
+            height: 10px;
+          }
+        }
+      }
+    }
   }
 `;
